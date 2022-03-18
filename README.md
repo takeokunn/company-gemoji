@@ -1,6 +1,6 @@
 # company-gemoji
 
-Add dockerfile keywords to company-mode keywords alist.
+Add [gemoji](https://github.com/github/gemoji) keywords to company-mode keywords alist.
 
 ## Config
 
