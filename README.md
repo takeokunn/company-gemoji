@@ -7,5 +7,5 @@ Add dockerfile keywords to company-mode keywords alist.
 ```emacs-lisp
 (add-hook 'text-mode-hook
           (lambda ()
-            (add-to-list 'company-backends #'company-dockerfile))
+            (add-to-list 'company-backends #'company-gemoji))
 ```
