@@ -39,6 +39,7 @@
 
 (defun company-gemoji--candidates (prefix)
   (let (res)
+    (message prefix)
     (dolist (item company-gemoji--keywords)
       (when (string-prefix-p prefix item)
         (push item res)))
