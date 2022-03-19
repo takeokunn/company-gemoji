@@ -1,3 +1,9 @@
+;;; company-gemoji-data.el --- Terraform documentation as elisp lists and hashes
+
+;;; THIS FILE WAS AUTOMATICALLY GENERATED. DO NOT EDIT.
+
+;;; Code:
+
 (defconst company-gemoji-data-keywords
   '(
     "grinning"
