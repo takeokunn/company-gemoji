@@ -31,7 +31,7 @@
 (require 'company-gemoji-data)
 
 (defcustom company-gemoji-self-keywords '()
-  ""
+  "If you want to add emoji, you should add to `company-gemoji-self-keywords`"
   :type '(alist string))
 
 (defvar company-gemoji--keywords
