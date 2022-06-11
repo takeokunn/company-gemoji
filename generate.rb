@@ -16,7 +16,7 @@ File.open(jisyo_path, 'w') do |f|
   f << "(defconst company-gemoji-data-keywords\n"
   f << "  \'(\n"
   names.each do |name|
-    f << "    \":#{name}:\"\n"
+    f << "    \"#{name}\"\n"
   end
   f << "    )\n"
   f << "  \"Keywords of the gemoji.\")\n"
